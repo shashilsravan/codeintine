@@ -100,5 +100,9 @@ plt.ylabel("Accuracy: ")
 plt.title("Accuracy and Training Loss: ")
 plt.savefig(arguments["plt"])
 
-print("[UPDATE] saving the model...")
-model.save(arguments["model"], save_format="h5")
+model_json = model.to_json()
+with open("model.json", "w") as json_file:
+    json_file.write(model_json)
+
+model.save("model.h5")
+print("Saved model")
