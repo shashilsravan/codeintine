@@ -1,0 +1,21 @@
+download model file from here: 
+
+Install tensorflow, keras, numpy and flask packages
+
+Step 1: 
+Download the model file
+Step 2:
+Place it in directory which has app.py
+Step 3:
+Open app.py and run the program
+Step 4:
+Go to chrome and type "http://127.0.0.1:4555/"
+Step 5:
+Upload a image of xrays which are present in dataset or by your own
+Step 6:
+After uploading the image, click on sub,it
+Step 7:
+A new page will be opened, detecting the covid affected chances of the xray
+
+
+Thank you
